@@ -1,4 +1,4 @@
-def fib(n): #O(N)
+def fib(n): #O(N) 
     if n <= 0:
 
         return -1
