@@ -1,6 +1,6 @@
 def fib(n):
     if n <= 0:
-        
+
         return -1
     elif n < 3:
         return 1
@@ -10,7 +10,7 @@ def fib(n):
             c = a+b
             a = b
             b = c
-        return c
+        return c 
 
 
 print(fib(100))
